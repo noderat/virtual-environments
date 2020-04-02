@@ -101,7 +101,7 @@ echo "Install libgtk"
 apt-get install -y --no-install-recommends libgtk-3-0
 
 echo "Install tk"
-apt install -y tk
+apt-get install -y --no-install-recommends tk
 
 echo "Install fakeroot"
 apt-get install -y --no-install-recommends fakeroot
